@@ -2,9 +2,8 @@ from cProfile import run
 
 
 class probarMes:
-    resp = int
 
-    def mes(x):
+    def mes(self,x):
         if (x == 1 or x == 3 or x == 5 or x == 7 or x == 8 or x == 10 or x == 12 ):
             a = "31 dias"
         elif (x == 2):
@@ -48,7 +47,7 @@ def run():
     else:
             print("Ingresar un mes existente")
             
-        
+
     probarMes1 = probarMes()
     print(probarMes1.mes(mesn))
         
